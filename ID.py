@@ -1,4 +1,5 @@
 from colors import *
+from util import *
 
 class ID:
   def __init__(self, name, ssn, address, birth, studentID, employer, income, bank):

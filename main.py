@@ -9,7 +9,7 @@ money = 47
 valid = 0
 bank = 0
 global income
-income = 0
+income = 10
 dungeon = False
 bankmoney = 0
 permacount = 0
@@ -219,6 +219,7 @@ while True:
       ["Aiden", "Lila", "Ethan", "Sophie", "Mason", "Clara", "Noah", "Ivy", "Liam", "Ella", "Owen", "Nora", "Lucas", "Grace", "Henry", "Seth", "Peter"],  # First names
       ["Carter", "Montgomery", "Bennett", "Harrison", "Drake", "Donovan", "Weston", "Sullivan", "Carter", "Harper", "Blake", "Griffin", "Hayes", "Caldwell", "Lawson", "Berger"]  # Last names
   ]
+  ID.taxes(id, money, income)
   if action == 1:
     
     if job == 1:
@@ -365,7 +366,7 @@ while True:
       util.cr()
       continue
     counter = 0
-    id.taxes(money, income)
+    ID.taxes(id, money, income)
   elif action == "5":
     passtry = input("Please enter your password\n")
     if passtry != password:

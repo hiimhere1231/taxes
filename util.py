@@ -1,7 +1,6 @@
 import os
 from time import sleep
 def cr():
-  return
   sleep(1)
   input("\nHit ENTER to continue.\n")
   os.system("clear")
