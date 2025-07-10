@@ -30,23 +30,23 @@ class ID:
     tax = int(input(f"{reset}Estimated Tax Due (Taxable Income x Tax Rate): {underline}"))
     print(reset)
     cr()
-    if name != self.name:
+    if name != name:
       print(f"You have made a mistake in your tax form and will be sent to {Red}the dungeon{reset}")
       dungeon = True
       exit()
-    elif ssn != self.ssn:
+    elif ssn != ssn:
       print(f"You have made a mistake in your tax form and will be sent to {Red}the dungeon{reset}")
       dungeon = True
       exit()
-    elif address != self.address:
+    elif address != address:
       print(f"You have made a mistake in your tax form and will be sent to {Red}the dungeon{reset}")
       dungeon = True
       exit()
-    elif birth != self.birth:
+    elif birth != birth:
       print(f"You have made a mistake in your tax form and will be sent to {Red}the dungeon{reset}")
       dungeon = True
       exit()
-    elif studentID != self.studentID:
+    elif studentID != studentID:
       print(f"You have made a mistake in your tax form and will be sent to {Red}the dungeon{reset}")
       dungeon = True
       exit()
@@ -65,11 +65,11 @@ class ID:
         print(f"You have made a mistake in your tax form and will be sent to {Red}the dungeon{reset}")
         dungeon = True
         exit()
-    if income != self.income:
+    if income != income:
       print(f"You have made a mistake in your tax form and will be sent to {Red}the dungeon{reset}")
       dungeon = True
       exit()
-    elif bank != self.bank:
+    elif bank != bank:
       print(f"You have made a mistake in your tax form and will be sent to {Red}the dungeon{reset}")
       dungeon = True
       exit()
